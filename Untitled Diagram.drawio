@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="Z6PxxWJl8QSk_24ldjjl">
-    <mxGraphModel>
+    <mxGraphModel dx="917" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-1" value="GCN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-2" value="Management/commands/&lt;div&gt;kafka-gcn.py&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-pamUgwQeY0xsRbIY8gK-1" target="-pamUgwQeY0xsRbIY8gK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="sourcePoint" />
+            <mxPoint x="480" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-4" value="VOEvent kafka" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="-pamUgwQeY0xsRbIY8gK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-5" value="trigger_app.views.py" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="330" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-10" value="parse_and_save_xml(voevent)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-pamUgwQeY0xsRbIY8gK-5">
+          <mxGeometry x="10" y="30" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-pamUgwQeY0xsRbIY8gK-7" target="-pamUgwQeY0xsRbIY8gK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-7" value="Model.Event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pamUgwQeY0xsRbIY8gK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-pamUgwQeY0xsRbIY8gK-2" target="-pamUgwQeY0xsRbIY8gK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
